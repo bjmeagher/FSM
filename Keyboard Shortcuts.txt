@@ -1,0 +1,10 @@
+Some shortcuts you may find useful...
+
+Copy: Command + C
+Paste: Command + V
+Cut: Command + X
+
+Undo: Command + Z
+Redo: Command + Y
+
+Run snippet: Command + Return

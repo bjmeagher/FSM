@@ -1,5 +1,7 @@
 Some shortcuts you may find useful...
 
+Open Devtools: fn + F12
+
 Copy: Command + C
 Paste: Command + V
 Cut: Command + X

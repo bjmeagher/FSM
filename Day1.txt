@@ -1,0 +1,76 @@
+/*
+A script for Day 1 of FSM's programming course
+In class, I labelled this snippet "Something useful... I hope"
+Author: Brian Meagher
+*/
+
+// Hello world function!
+alert("Hello world!");
+
+// Some basic math problems
+console.log(5 + 1);
+console.log(1 - 9);
+console.log(5 * 3);
+console.log(15 / 2);
+console.log(2 ** 3);
+
+// PEMDAS practice
+console.log( (9 - 5 / (8 - 3) * 2 + 6) + 3 ** 2 )
+
+// Store the answer to 1 + 1 in the_answer and print it
+var the_answer = 1 + 1;
+console.log(the_answer);
+
+// Do some calculations!
+console.log(the_answer + 1);
+console.log(the_answer - 3);
+console.log(the_answer ** 2);
+
+// Notice that slightly different names don't work
+console.log(theanswer);
+console.log(the_Answer);
+console.log(The_answer);
+
+// Alter the_answer in various ways, and view the change each time
+the_answer = 3;
+console.log(the_answer);
+
+the_answer++;
+console.log(the_answer);
+
+the_answer--;
+console.log(the_answer);
+
+the_answer += 2;
+console.log(the_answer);
+
+the_answer -= 2;
+console.log(the_answer);
+
+the_answer *= 2;
+console.log(the_answer);
+
+the_answer /= 2;
+console.log(the_answer);
+
+the_answer **= 2;
+console.log(the_answer);
+
+// Here is a random comment
+
+/*
+Here is a multi-line comment!
+More lines!
+More!
+MORE!!!!!!!
+MWAHAHAhAHAHA!!!!!
+...excuse me, sorry.
+*/
+
+// Make a little function
+function sillyFunction(x1, x2, x3) {
+    var product = x1 * x2;
+    return product ** x3;
+};
+var x = 3;
+console.log(sillyFunction(1,2,x));

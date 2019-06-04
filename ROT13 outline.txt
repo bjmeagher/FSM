@@ -1,0 +1,61 @@
+// Some starting code to help you out!
+var letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", 
+"L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", 
+"Z"];
+var x = "MAKE ME SNEAKY";
+
+function ROT13(sentence) {
+    // The first thing you'll want to do is split the sentence up
+    var split_sentence = ???
+
+    // Make a blank array to use in the upcoming for loops!
+    var encoded = ???
+
+    /*
+    You'll now have to fill in the following for loops to encode the message!
+    As a hint, you'll want to loop through the different words in the sentence in
+    the outer loop, then loop through each letter of that word in the inner loop
+    */
+
+    // For each word in the sentence...
+    for (???; ???; ???){
+        var current_word = ???
+
+        // For each letter in that word...
+        for (???; ???; ???){
+            // Select the current letter in the sentence
+            var letter = ???;
+
+            // Find its index in the list of letters
+            var index = ???;
+
+            // Calculate the index of the encoded version of the letter.
+            // This one I'll give you for free!
+            var newLetterIndex = (index + 13) % 26;
+
+            // Now find out what the encoded letter actually is
+            var newLetter = ???;
+
+            // Push the letter into the encoded array!
+            encoded???
+        }
+        // Push a space into the encoded array after each word
+        encoded???
+    }
+    // Now join the encoded phrase together!
+    encoded = ???
+    
+    // Finally, tell the function to return the encoded array
+}
+
+/* 
+Use this to check if you've done it correctly! 
+You should see the following in the console:
+ZNXR ZR FARNXL 
+MAKE ME SNEAKY 
+*/
+
+var y = ROT13(x);
+console.log(y);
+var decode = ROT13(y);
+console.log(decode);

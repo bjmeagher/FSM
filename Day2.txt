@@ -25,8 +25,7 @@ console.log(split_string); // doesn't that look funny...
 
 // Make an array, and access some values
 var numArray = [1, 2, 3, 4];
-var x = 4;
-console.log(numArray[1]);
+console.log(numArray[1]); // well that's weird...
 
 // Joining strings
 var hello2 = ["h", "e", "l", "l", "o"];

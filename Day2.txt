@@ -1,0 +1,66 @@
+/*
+Day 2's code!
+Author: Brian Meagher
+*/
+
+// Make some strings
+var hello = "Hello";
+var one = "1";
+
+// Check some simple methods and elements of hello
+console.log(hello.length);
+console.log(hello.toUpperCase());
+console.log(hello.toLowerCase());
+console.log(hello + hello);
+
+// Demonstrate data types
+"1";   //string
+1     //int
+"1" + 1; 
+
+// Create and split a string
+var my_string = "Hello, world!";
+var split_string = my_string.split(" ");
+console.log(split_string); // doesn't that look funny...
+
+// Make an array, and access some values
+var numArray = [1, 2, 3, 4];
+var x = 4;
+console.log(numArray[1]);
+
+// Joining strings
+var hello2 = ["h", "e", "l", "l", "o"];
+hello2 = hello2.join("");
+console.log(hello2);
+
+hello2 = ["h", "e", "l", "l", "o"];
+hello2 = hello2.join(" ");
+console.log(hello2);
+
+// indexOf
+var hello2 = ["h", "e", "l", "l", "o"];
+console.log(hello2.indexOf("h"));
+console.log(hello2.indexOf("l"));
+
+// Practice with push
+var newArray = [];
+newArray.push(0);
+newArray.push(1);
+newArray.push(2);
+console.log(newArray);
+
+// Setting up a for loop
+var newArray = [];
+for (i = 0; i < 3; i++){
+    newArray.push(i);
+}
+console.log(newArray);
+
+// A bit of modulo practice
+console.log(1 % 1);
+console.log(2 % 1);
+console.log(1 % 3);
+console.log(3 % 3);
+console.log(5 % 3);
+console.log(6 % 3);
+console.log(7 % 5);

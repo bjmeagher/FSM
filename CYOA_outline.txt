@@ -1,0 +1,35 @@
+// Choose your own adventure!
+
+/*
+We want to create a short choose-your-own-adventure (CYOA) game, in which our user
+chooses one of four ways to slay a dragon!
+*/
+
+// First, let's ask the adventurer to enter their name!
+var name = ???
+
+/* We now want to give a bit of backstory, as well as a set of options to choose from.
+Each option should be a number, and the adventurer will enter one of those options into
+the prompt.
+
+Format this how you like, but make sure it looks OK! You may need to try several times 
+before you get something you like 
+*/
+var choice = ???
+
+// As a reminder, you may want to convert the choice to a number before continuing...
+???
+
+// Now let's use an if-else statement to determine what happens to our adventurer!
+if (???){
+    ???
+} else if (???){
+    ???
+} else if (???){
+    ???
+} else if (???){
+    ???
+// You should also have an "else" block, in case the participant says something nonsensical	
+} else {
+    ???
+}

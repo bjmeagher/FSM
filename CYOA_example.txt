@@ -1,0 +1,26 @@
+// Choose your own adventure!
+var name = prompt('Enter your name, fair adventurer!');
+name = String(name);
+
+var choice = prompt(name + ", you have been chosen to slay the dragon!\n\n\
+The townsfolk cheer you on as you prepare for your journey, a perilous trek \
+that would leave lesser souls quaking in their boots. How do you proceed?\n\n\
+ENTER ONE OF THE FOLLOWING NUMBERS: \n\
+1: Sword and shield\n\
+2: Bow and arrow\n\
+3: Use magic\n\
+4: Talk some sense into him\n");
+
+choice = Number(choice);
+
+if (choice === 1){
+    alert("You attempt to strike at the dragon with your sword, but the dragon easily deflects the attack. He then breaths fire on you, burning you to a crisp!\n\n\BETTER LUCK NEXT TIME");
+} else if (choice === 2){
+    alert("You fire at the dragon with your bow and arrow, but he deftly dodges your attacks. He then breathes fire on you, burning you to a crisp!\n\n\BETTER LUCK NEXT TIME");
+} else if (choice === 3){
+    alert("You attempt to cast a spell at the dragon, but realize at the last moment that your magic wand is broken! Your spell backfires, burning you to a crisp!\n\n\BETTER LUCK NEXT TIME");
+} else if (choice === 4){
+    alert("The dragon begins laughing at your feeble attempt to reason with it. It laughs so hard that it falls over dead!\n\n\YOU WIN!!!");
+} else {
+    alert("Confused at your nonsensical response, the dragon becomes frightened and runs away!\n\n\YOU WIN!!!");
+}

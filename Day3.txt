@@ -1,0 +1,92 @@
+/*
+Day 3 of the course! Conditionals
+*/
+
+// Some comparisons
+console.log(1 === 1);
+console.log(1 === 0);
+
+console.log(1 > 2);
+console.log(2 >= 2);
+
+console.log(9 < 7);
+console.log(9 <= 10);
+
+// Working with booleans
+var good = true;
+var bad = false;
+
+console.log(good && bad);
+console.log(good && good);
+console.log(bad && bad);
+console.log(good || bad);
+console.log(good || good);
+console.log(bad || bad);
+console.log(!good);
+console.log(!bad);
+
+// if/else statements
+var havingFun = true;
+var workingHard = false;
+
+if (havingFun && workingHard){
+    console.log("Good job!");
+} else if (havingFun || workingHard){
+    console.log("Almost there!");
+} else {
+    console.log("You'll get there");
+}
+
+// Programming a joke...
+
+// The programmer's statement
+var haveMilk = true;
+var haveEggs = true;
+
+if (haveEggs && haveMilk) {
+    var milk = 12;
+} else if (haveMilk){
+    var milk = 1;
+} else {
+    var milk = 0;
+}
+var eggs = 0;
+console.log(milk + " gallons of milk and " + eggs + " eggs.");
+
+// The husband's statement:
+var haveMilk = true;
+var haveEggs = true;
+
+if (haveMilk){
+    var milk = 1;
+} else {
+    var milk = 0;
+};
+if (haveEggs) {
+    var eggs = 12;
+} else {
+    var eggs = 0;
+}
+
+console.log(milk + " gallons of milk and " + eggs + " eggs.");
+
+// Dealing with user input. Note the backslash later!
+var favNumber = prompt("What is your favorite number?");
+console.log("Your favorite \
+number is " + favNumber);
+
+// Change it to a number
+favNumber = Number(favNumber);
+console.log(typeof(favNumber));
+
+// Now back to a string
+favNumber = String(favNumber);
+console.log(typeof(favNumber));
+
+// Multi-line strings
+console.log("Hello friend!\n\n\
+This is a multi-line message! I hope \
+you like it ^_^");
+
+// An alert! It should look familiar...
+alert("Hello, world!");

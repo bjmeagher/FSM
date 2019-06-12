@@ -1,0 +1,75 @@
+// Rock, paper, scissors
+
+// Define the number of games to be played, and convert to a number
+var numGames = ???
+numGames = ???
+
+// Define two variables, playerWins and computerWins. Set both to zero!
+var playerWins = ???
+var computerWins = ???
+
+/* 
+Start the main loop. The idea here is that we will decrease the value of 
+numGames by one at the end of each iteration of the loop until it drops 
+to zero.
+*/
+
+// A boolean expression should go here which tells the condition under which
+// it should end.
+while (???){
+    /* Have the computer pick a number from one to three. I'll
+    fill this one in for you to help you out... the possibilities
+    are:
+
+    1: Rock
+    2: Paper
+    3: Scissors
+    */
+    var computerChoice = Math.ceil(Math.random() * 3);
+
+    // Have the player make their choice.
+    var playerChoice = ???
+
+    // Remember to convert it to a number!
+    playerChoice = ???
+
+    /*
+    We're now going to start a long if/else statement that does two things:
+    1: Alerts the player as to who won and why
+    2: Updates the playerWins/computerWins accordingly
+    
+    You'll need to use comparison operators here, as well as the and operator.
+    One line has been filled out for you, as an example. There will be 9 possible
+    outcomes in total.
+    */
+
+    if (playerChoice === 1 && computerChoice === 1){
+        alert("You both chose rock. It's a tie!");
+    } else if (???){
+        ???
+    } else {
+        // Make sure to include something here if the player inputs something nonsensical
+        // By default, the player should lose if they do so.
+    }
+
+    // Decrease the number of games by one
+    numGames???
+}
+
+/* 
+Determine who won the game!
+
+There are three possibilities here:
+1: Player wins
+2: Computer wins
+3: Tie
+Make sure to account for all three!
+
+*/
+if (playerWins > computerWins){
+    alert("You win! Congratulations!");
+} else if (???){
+    ???
+} else if(???){
+    ???
+}
